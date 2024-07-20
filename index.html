@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flipkart</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -17,9 +19,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- CSS -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- NavBar -->
     <nav class="navbar">
       <div class="nav-logo">
         <img src="./assets/logo.svg" alt="logo" />
@@ -47,7 +51,9 @@
         <img src="./assets/more.png" alt="more" class="icon" />
       </div>
     </nav>
+    <!-- Main Section -->
     <main class="main-section">
+      <!-- Top Category  -->
       <section class="category">
         <div class="category-item">
           <img src="./assets/category/grocery.png" alt="" />
@@ -86,12 +92,13 @@
           <p>Two Wheelers</p>
         </div>
       </section>
+      <!-- Main Ad Banner -->
       <section class="main-banner">
         <img src="./assets/banners/7409480987a9a093.jpeg" alt="banner" />
       </section>
-
+      <!-- Product Section -->
       <section class="products">
-        <!--  -->
+        <!-- 1 -->
         <div class="card-type1">
           <div class="product-section">
             <div class="card-type1-head">
@@ -99,6 +106,10 @@
               <i class="fa-solid fa-angle-right round-btn"></i>
             </div>
             <div class="card-type1-body">
+              <button class="scroll-btn-right">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+
               <div class="productcard">
                 <img src="./assets/electronics/watch.jpeg" alt="watch" />
                 <div class="product-info">
@@ -140,13 +151,16 @@
             <img src="./assets/banners/small-banner.jpeg" alt="" />
           </div>
         </div>
-        <!--  -->
+        <!-- 2 -->
         <div class="card-type2">
           <div class="card-type2-head">
             <h2>Top Deals</h2>
             <i class="fa-solid fa-angle-right round-btn"></i>
           </div>
           <div class="card-type2-body">
+            <button class="scroll-btn-right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
             <div class="productcard">
               <img src="./assets/topdeals/cam3.jpeg" alt="cam" />
               <div class="product-info">
@@ -155,46 +169,43 @@
               </div>
             </div>
             <div class="productcard">
-                <img src="./assets/topdeals/ipad.jpeg" alt="ipad" />
-                <div class="product-info">
-                  <p>Apple iPads</p>
-                  <p>Shop Now!</p>
-                </div>
+              <img src="./assets/topdeals/ipad.jpeg" alt="ipad" />
+              <div class="product-info">
+                <p>Apple iPads</p>
+                <p>Shop Now!</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/topdeals/shoes4.jpeg" alt="shoe" />
-                <div class="product-info">
-                  <p>Puma Addidas</p>
-                  <p>Min 40% Off</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/topdeals/shoes4.jpeg" alt="shoe" />
+              <div class="product-info">
+                <p>Puma Addidas</p>
+                <p>Min 40% Off</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/topdeals/instax.jpeg" alt="cam" />
-                <div class="product-info">
-                  <p>Instax Camera</p>
-                  <p>From &#8377;3,999</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/topdeals/instax.jpeg" alt="cam" />
+              <div class="product-info">
+                <p>Instax Camera</p>
+                <p>From &#8377;3,999</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/topdeals/lehanga.jpeg" alt="lehanga" />
-                <div class="product-info">
-                  <p>Top Selling Lehanga</p>
-                  <p>Under &#8377;699</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/topdeals/lehanga.jpeg" alt="lehanga" />
+              <div class="product-info">
+                <p>Top Selling Lehanga</p>
+                <p>Under &#8377;699</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/topdeals/gowns.jpeg" alt="gowns" />
-                <div class="product-info">
-                  <p>Gowns</p>
-                  <p>Under &#8377;699</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/topdeals/gowns.jpeg" alt="gowns" />
+              <div class="product-info">
+                <p>Gowns</p>
+                <p>Under &#8377;699</p>
               </div>
-           
+            </div>
           </div>
         </div>
-        <!--  -->
-        
-        <!--  -->
+        <!--3 -->
         <section class="card-withbanner">
           <div class="card-type3">
             <div class="card-type3-head">
@@ -210,7 +221,10 @@
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/truewireless.jpeg" alt="earphone" />
+                <img
+                  src="./assets/card3-images/truewireless.jpeg"
+                  alt="earphone"
+                />
                 <div class="product-info">
                   <p>True Wireless</p>
                   <p>Special Offer</p>
@@ -236,7 +250,7 @@
             <img src="./assets/banners/banner-medium.png" alt="" />
           </div>
         </section>
-
+        <!-- 4 -->
         <section class="card3-container">
           <div class="card-type3">
             <div class="card-type3-head">
@@ -252,7 +266,10 @@
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/wireless3.jpeg" alt="wireless" />
+                <img
+                  src="./assets/card3-images/wireless3.jpeg"
+                  alt="wireless"
+                />
                 <div class="product-info">
                   <p>True Wireless</p>
                   <p>Special Offer</p>
@@ -266,7 +283,10 @@
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/roti-maker.jpeg" alt="rotimaker" />
+                <img
+                  src="./assets/card3-images/roti-maker.jpeg"
+                  alt="rotimaker"
+                />
                 <div class="product-info">
                   <p>Roti Makers</p>
                   <p>Min 50% off</p>
@@ -288,14 +308,20 @@
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/flip-flop.jpeg" alt="flipflop" />
+                <img
+                  src="./assets/card3-images/flip-flop.jpeg"
+                  alt="flipflop"
+                />
                 <div class="product-info">
                   <p>Men's Slippers & Flip Flops</p>
                   <p>Min 70% off</p>
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/gold-chain.jpeg" alt="jwellery" />
+                <img
+                  src="./assets/card3-images/gold-chain.jpeg"
+                  alt="jwellery"
+                />
                 <div class="product-info">
                   <p>Jewellery</p>
                   <p>Min 50% off</p>
@@ -331,7 +357,10 @@
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/key-holder.jpeg" alt="keyholder" />
+                <img
+                  src="./assets/card3-images/key-holder.jpeg"
+                  alt="keyholder"
+                />
                 <div class="product-info">
                   <p>Keyholders</p>
                   <p>Popular</p>
@@ -346,17 +375,17 @@
               </div>
             </div>
           </div>
-         
         </section>
-<!--  -->
-
-
+        <!-- 5 -->
         <div class="card-type2">
           <div class="card-type2-head">
             <h2>Beauty Foods Toys & More</h2>
             <i class="fa-solid fa-angle-right round-btn"></i>
           </div>
           <div class="card-type2-body">
+            <button class="scroll-btn-right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
             <div class="productcard">
               <img src="./assets/Toys/statioary.jpeg" alt="Stationery" />
               <div class="product-info">
@@ -401,7 +430,7 @@
             </div>
           </div>
         </div>
-
+        <!-- 6 -->
         <section class="card-withbanner">
           <div class="card-type3">
             <div class="card-type3-head">
@@ -410,7 +439,10 @@
             </div>
             <div class="card-type3-body">
               <div class="productcard">
-                <img src="./assets/card3-images/chocolates.jpeg" alt="chocolates" />
+                <img
+                  src="./assets/card3-images/chocolates.jpeg"
+                  alt="chocolates"
+                />
                 <div class="product-info">
                   <p>Chocolates</p>
                   <p>Min 50% off</p>
@@ -424,7 +456,10 @@
                 </div>
               </div>
               <div class="productcard">
-                <img src="./assets/card3-images/sunglass.jpeg" alt="Sunglasses" />
+                <img
+                  src="./assets/card3-images/sunglass.jpeg"
+                  alt="Sunglasses"
+                />
                 <div class="product-info">
                   <p>Sunglasses</p>
                   <p>Up to 75% off</p>
@@ -443,13 +478,16 @@
             <img src="./assets/banners/medium-banner-2.png" alt="banner" />
           </div>
         </section>
-
+        <!-- 7 -->
         <div class="card-type2">
           <div class="card-type2-head">
             <h2>Pick Your Styles</h2>
             <i class="fa-solid fa-angle-right round-btn"></i>
           </div>
           <div class="card-type2-body">
+            <button class="scroll-btn-right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
             <div class="productcard">
               <img src="./assets/pickstyles/hoddie.jpeg" alt="Hoddies" />
               <div class="product-info">
@@ -458,50 +496,52 @@
               </div>
             </div>
             <div class="productcard">
-                <img src="./assets/pickstyles/ethnics.jpeg" alt="ethnics" />
-                <div class="product-info">
-                  <p>Ethnic Dresses</p>
-                  <p>Under &#8377;499</p>
-                </div>
+              <img src="./assets/pickstyles/ethnics.jpeg" alt="ethnics" />
+              <div class="product-info">
+                <p>Ethnic Dresses</p>
+                <p>Under &#8377;499</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/pickstyles/saree.jpeg" alt="saree" />
-                <div class="product-info">
-                  <p>Trending Sarees</p>
-                  <p>Under &#8377;499</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/pickstyles/saree.jpeg" alt="saree" />
+              <div class="product-info">
+                <p>Trending Sarees</p>
+                <p>Under &#8377;499</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/pickstyles/bags.jpeg" alt="bags" />
-                <div class="product-info">
-                  <p>Bags,Trollyes</p>
-                  <p>50-70%+10%Extra off</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/pickstyles/bags.jpeg" alt="bags" />
+              <div class="product-info">
+                <p>Bags,Trollyes</p>
+                <p>50-70%+10%Extra off</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/pickstyles/kurta.jpeg" alt="kurta" />
-                <div class="product-info">
-                  <p>Kurta Sets</p>
-                  <p>Min 70% off</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/pickstyles/kurta.jpeg" alt="kurta" />
+              <div class="product-info">
+                <p>Kurta Sets</p>
+                <p>Min 70% off</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/pickstyles/shoe.jpeg" alt="shoe" />
-                <div class="product-info">
-                  <p>U.S Polo Assn</p>
-                  <p>Min 40% off</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/pickstyles/shoe.jpeg" alt="shoe" />
+              <div class="product-info">
+                <p>U.S Polo Assn</p>
+                <p>Min 40% off</p>
               </div>
-            
+            </div>
           </div>
         </div>
-
+        <!-- 8 -->
         <div class="card-type2">
           <div class="card-type2-head">
             <h2>Furniture Deals</h2>
             <i class="fa-solid fa-angle-right round-btn"></i>
           </div>
           <div class="card-type2-body">
+            <button class="scroll-btn-right">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
             <div class="productcard">
               <img src="./assets/furnitures/matteress.jpeg" alt="matteress" />
               <div class="product-info">
@@ -510,45 +550,44 @@
               </div>
             </div>
             <div class="productcard">
-                <img src="./assets/furnitures/sofa1.jpeg" alt="sofa" />
-                <div class="product-info">
-                  <p>Sofa & Sectionals</p>
-                  <p>From &#8377;7,999</p>
-                </div>
+              <img src="./assets/furnitures/sofa1.jpeg" alt="sofa" />
+              <div class="product-info">
+                <p>Sofa & Sectionals</p>
+                <p>From &#8377;7,999</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/furnitures/matteress.jpeg" alt="chair" />
-                <div class="product-info">
-                  <p>Matteresses</p>
-                  <p>From &#8377;2,990</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/furnitures/matteress.jpeg" alt="chair" />
+              <div class="product-info">
+                <p>Matteresses</p>
+                <p>From &#8377;2,990</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/furnitures/officechair.jpeg" alt="matteress" />
-                <div class="product-info">
-                  <p>Office Study Chairs</p>
-                  <p>From &#8377;1,890</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/furnitures/officechair.jpeg" alt="matteress" />
+              <div class="product-info">
+                <p>Office Study Chairs</p>
+                <p>From &#8377;1,890</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/furnitures/beds.jpeg" alt="beds" />
-                <div class="product-info">
-                  <p>Beds</p>
-                  <p>From &#8377;1,790</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/furnitures/beds.jpeg" alt="beds" />
+              <div class="product-info">
+                <p>Beds</p>
+                <p>From &#8377;1,790</p>
               </div>
-              <div class="productcard">
-                <img src="./assets/furnitures/outdoorchair.jpeg" alt="chair" />
-                <div class="product-info">
-                  <p>Outdoor Chairs</p>
-                  <p>From &#8377;990</p>
-                </div>
+            </div>
+            <div class="productcard">
+              <img src="./assets/furnitures/outdoorchair.jpeg" alt="chair" />
+              <div class="product-info">
+                <p>Outdoor Chairs</p>
+                <p>From &#8377;990</p>
               </div>
-            
+            </div>
           </div>
         </div>
-
       </section>
+      <!-- Faq Footer -->
       <section class="faq-footer">
         <div class="faq-div">
           <h3>Flipkart: The One-stop Shopping Destination</h3>
@@ -630,8 +669,10 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
       <div class="main-footer">
+        <!-- Contact and Company Details -->
         <div class="footer-a">
           <div class="footer-div">
             <h4>ABOUT</h4>
@@ -687,13 +728,15 @@
               <li>Karnataka, India</li>
             </ul>
             <div class="social-links">
-                <p>Social:</p>
-                <div class="icons">
-                    <img class="icon" src="" alt="">
-                </div>
+              <p>Social:</p>
+              <div class="icons">
+                <img class="icon" src="./assets/facebook.png" alt="fb" />
+                <img class="icon" src="./assets/twitter.png" alt="twitter" />
+                <img class="icon" src="./assets/youtube.png" alt="youtube" />
               </div>
+            </div>
           </div>
-          
+
           <div class="footer-div">
             <h4>Registered Office Address:</h4>
             <ul>
@@ -701,14 +744,29 @@
               <li>Buildings Alyssa, Begonia &</li>
               <li>Clove Embassy Tech Village,</li>
               <li>Outer Ring Road, Devarabeesanahalli Village,</li>
-              <li>Bengaluru, 560103,              </li>
-              <li>Karnataka, India
-              </li>
+              <li>Bengaluru, 560103,</li>
+              <li>Karnataka, India</li>
               <li>CIN : U51109KA2012PTC066107</li>
               <li>Telephone: 044-45614700 / 044-67415800</li>
             </ul>
           </div>
         </div>
+      </div>
+      <!-- Copyright Footer -->
+      <div class="copyright">
+        <p>
+          <i class="fa-solid fa-shop" style="color: #ffd43b"></i>Become a Seller
+        </p>
+        <p>
+          <i class="fa-regular fa-star" style="color: #ffd43b"></i>Advertise
+        </p>
+        <p><i class="fa-solid fa-gift" style="color: #ffd43b"></i>Gift Cards</p>
+        <p>
+          <i class="fa-solid fa-circle-question" style="color: #ffd43b"></i>Help
+          Center
+        </p>
+        <p>© 2007-2024 Flipkart.com</p>
+        <img src="./assets/payment.svg" alt="payment" />
       </div>
     </footer>
   </body>
